@@ -1,0 +1,43 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven Bundle Plugin
+Built-By: joakim
+Build-Jdk: 1.7.0_75
+Implementation-Vendor: Eclipse.org - Jetty
+Implementation-Version: 9.2.20.v20161216
+url: http://www.eclipse.org/jetty
+Export-Package: org.eclipse.jetty.websocket.common.events;version="9.2
+ .20",org.eclipse.jetty.websocket.common.io.http;version="9.2.20",org.
+ eclipse.jetty.websocket.common.extensions;version="9.2.20",org.eclips
+ e.jetty.websocket.common.extensions.fragment;version="9.2.20",org.ecl
+ ipse.jetty.websocket.common.message;version="9.2.20",org.eclipse.jett
+ y.websocket.common.extensions.identity;version="9.2.20",org.eclipse.j
+ etty.websocket.common.util;version="9.2.20",org.eclipse.jetty.websock
+ et.common.extensions.compress;version="9.2.20",org.eclipse.jetty.webs
+ ocket.common.events.annotated;version="9.2.20",org.eclipse.jetty.webs
+ ocket.common;version="9.2.20",org.eclipse.jetty.websocket.common.io.p
+ ayload;version="9.2.20",org.eclipse.jetty.websocket.common.io;version
+ ="9.2.20",org.eclipse.jetty.websocket.common.frames;version="9.2.20"
+Bundle-Classpath: .
+Tool: Bnd-1.15.0
+Bundle-Name: Jetty :: Websocket :: Common
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-Copyright: Copyright (c) 2008-2016 Mort Bay Consulting Pty. Ltd.
+Bundle-Vendor: Eclipse Jetty Project
+Bundle-Version: 9.2.20.v20161216
+Bnd-LastModified: 1481929256250
+Bundle-ManifestVersion: 2
+Bundle-Description: Administrative parent pom for Jetty modules
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0, http://www
+ .eclipse.org/org/documents/epl-v10.php
+Import-Package: org.eclipse.jetty.io;version="[9.0,10.0)",org.eclipse.
+ jetty.util;version="[9.0,10.0)",org.eclipse.jetty.util.annotation;ver
+ sion="[9.0,10.0)",org.eclipse.jetty.util.component;version="[9.0,10.0
+ )",org.eclipse.jetty.util.log;version="[9.0,10.0)",org.eclipse.jetty.
+ util.thread;version="[9.0,10.0)",org.eclipse.jetty.websocket.api;vers
+ ion="[9.0,10.0)",org.eclipse.jetty.websocket.api.annotations;version=
+ "[9.0,10.0)",org.eclipse.jetty.websocket.api.extensions;version="[9.0
+ ,10.0)",org.eclipse.jetty.websocket.api.util;version="[9.0,10.0)"
+Bundle-SymbolicName: org.eclipse.jetty.websocket.common
+Bundle-DocURL: http://www.eclipse.org/jetty
+

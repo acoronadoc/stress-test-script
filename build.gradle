@@ -1,0 +1,26 @@
+apply plugin: 'java'
+
+version = '1.0'
+
+task fatJar(type: Jar) {
+	manifest {
+        attributes 'Implementation-Title': 'Charge Tests',
+        	'Implementation-Version': version,
+        	'Main-Class': 'com.lostsys.at.estres.Main'
+    }
+    baseName = 'charge-all'
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    with jar
+}
+
+repositories {
+    jcenter()
+	}
+
+dependencies {
+    compile 'org.slf4j:slf4j-api:1.7.12'
+
+    compile 'net.sourceforge.htmlunit:htmlunit:2.24'
+
+    testCompile 'junit:junit:4.12'
+	}

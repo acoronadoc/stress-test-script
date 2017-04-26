@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven Bundle Plugin
+Built-By: joakim
+Build-Jdk: 1.7.0_75
+Implementation-Vendor: Eclipse.org - Jetty
+Implementation-Version: 9.2.20.v20161216
+url: http://www.eclipse.org/jetty
+Export-Package: org.eclipse.jetty.websocket.api.extensions;version="9.
+ 2.20",org.eclipse.jetty.websocket.api;version="9.2.20",org.eclipse.je
+ tty.websocket.api.annotations;version="9.2.20",org.eclipse.jetty.webs
+ ocket.api.util;version="9.2.20"
+Bundle-Classpath: .
+Tool: Bnd-1.15.0
+Bundle-Name: Jetty :: Websocket :: API
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-Copyright: Copyright (c) 2008-2016 Mort Bay Consulting Pty. Ltd.
+Bundle-Vendor: Eclipse Jetty Project
+Bundle-Version: 9.2.20.v20161216
+Bnd-LastModified: 1481929230309
+Bundle-ManifestVersion: 2
+Bundle-Description: Administrative parent pom for Jetty modules
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0, http://www
+ .eclipse.org/org/documents/epl-v10.php
+Bundle-SymbolicName: org.eclipse.jetty.websocket.api
+Bundle-DocURL: http://www.eclipse.org/jetty
+

@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Implementation-Title: HtmlUnit
+Implementation-Version: 2.24
+Built-By: ahmed_ashour
+Specification-Vendor: Gargoyle Software Inc.
+Specification-Title: HtmlUnit
+Implementation-Vendor-Id: net.sourceforge.htmlunit
+Url: http://htmlunit.sourceforge.net
+Implementation-Vendor: Gargoyle Software Inc.
+Build-Time: 2017-01-09 07:24
+Created-By: Apache Maven 3.3.9
+Build-Jdk: 1.8.0_112
+Specification-Version: 2.24
+Implementation-URL: http://htmlunit.sourceforge.net
+
