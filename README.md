@@ -10,11 +10,11 @@ You may download the Jar file from <a target="_blank" href="https://github.com/a
 
 For a simple usage:
 
-java -jar charge-all-1.0.jar -url http://www.myurl.com/test.php -repeat 10
+<code>java -jar charge-all-1.0.jar -url http://www.myurl.com/test.php -repeat 10</code>
 
 If you need use a proxy:
 
-java -jar charge-all-1.0.jar -url http://www.myurl.com/test.php -repeat 10 -proxyHost XX.XX.XX.XX -proxyPort YYYY
+<code>java -jar charge-all-1.0.jar -url http://www.myurl.com/test.php -repeat 10 -proxyHost XX.XX.XX.XX -proxyPort YYYY</code>
 
 ### Source
 
